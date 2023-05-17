@@ -13,7 +13,9 @@ const Untitled2 = () => {
       flex: 1
     }}><Pressable onPress={() => {
         navigation.navigate("ScreenAI3");
-      }}><Text style={styles.BADZAobv}>{"Hamburger - menu"}</Text></Pressable><Text style={styles.MhqsYLia}>{"Complete your Experience"}</Text></ScrollView>
+      }}><Text style={styles.BADZAobv}>{"Hamburger - menu"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI4");
+      }}><Text style={styles.MhqsYLia}>{"Complete your Experience"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
