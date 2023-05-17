@@ -23,7 +23,13 @@ const Untitled2 = () => {
         navigation.navigate("ScreenAI9");
       }}><Text style={styles.ubhqWaRu}>{"Memberships"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("ScreenAI17");
-      }}><Text style={styles.MDCIDktt}>{"Tournament Schedule"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.MDCIDktt}>{"Tournament Schedule"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI20");
+      }}><Text style={styles.peUnpvNk}>{"Live Leaderboard"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI23");
+      }}><Text style={styles.WWOkXKDT}>{"Past Results"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI22");
+      }}><Text style={styles.idYFyCMt}>{"Rankings"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -67,6 +73,27 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   MDCIDktt: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  peUnpvNk: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  WWOkXKDT: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  idYFyCMt: {
     width: 100,
     height: 50,
     lineHeight: 14,
