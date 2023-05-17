@@ -19,7 +19,9 @@ const Untitled2 = () => {
         navigation.navigate("ScreenAI5");
       }}><Text style={styles.bGwxfpVF}>{"Sign up"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("ScreenAI7");
-      }}><Text style={styles.NVGUpXTV}>{"Sign up"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.NVGUpXTV}>{"Sign up"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI9");
+      }}><Text style={styles.ubhqWaRu}>{"Memberships"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -49,6 +51,13 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   NVGUpXTV: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  ubhqWaRu: {
     width: 100,
     height: 50,
     lineHeight: 14,
