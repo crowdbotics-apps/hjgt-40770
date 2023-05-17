@@ -12,7 +12,7 @@ const Untitled2 = () => {
       position: 'relative',
       flex: 1
     }}><Pressable onPress={() => {
-        navigation.navigate("ScreenAI3");
+        navigation.navigate("ScreenAI10");
       }}><Text style={styles.BADZAobv}>{"Hamburger - menu"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("ScreenAI4");
       }}><Text style={styles.MhqsYLia}>{"Complete your Experience"}</Text></Pressable><Pressable onPress={() => {
