@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
+import { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Switch, StyleSheet, Picker } from 'react-native';
 
 const ScreenComponent = () => {
+  const navigation = useNavigation();
   const [cardName, setCardName] = useState('');
   const [expires, setExpires] = useState('');
   const [securityCode, setSecurityCode] = useState('');
@@ -45,7 +48,9 @@ const ScreenComponent = () => {
         <TextInput style={styles.input} value={zipCode} onChangeText={setZipCode} />
       </View>
       <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonText}>Continue</Text>
+        <Pressable onPress={() => {
+        navigation.navigate("ScreenAI16");
+      }}><Text style={styles.buttonText}>Continue</Text></Pressable>
       </TouchableOpacity>
     </View>;
 };
